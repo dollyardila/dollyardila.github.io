@@ -1,15 +1,46 @@
 html, body{
 	font-size:16px;
 	color: #dfdfdf;
-	background-color: #063647; 
+	background-color: #ffffff;
 }
 
 a {
-  color: #00d1b2;
+  color: #03A78E;
+	font-weight:700;
 }
 
 a:hover {
-  color: #00d1b2;
+  color: #02806E;
+}
+
+h2.name-title{
+	font-family: 'Lato', sans-serif;
+	font-size:36px;
+	text-align:center;
+	font-weight:700;
+}
+
+h3.title{
+	color:#220f33;
+}
+
+h4{
+	color:#545454;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	font-size:24px;
+	margin-bottom:30px;
+}
+
+h5{
+	font-size:20px;
+	text-align:center;
+	margin-bottom:30px;
+	margin-top:30px;
+	font-weight:700;
+	color:#565656;
+	font-family: 'Lato', sans-serif;
 }
 
 section{
@@ -18,28 +49,50 @@ section{
 }
 
 .section-1 {
-	background: #063647;
+	background: #220f33;
 }
 
 .section-2 {
-	background-color: #052D3D;
+	background-color: #F4F6FC;
 }
 
 .section-3 {
 	background-color: #0E282E;
 }
 
+.section-5{
+	background:#f4f4f4;
+}
+
+.section-6{
+	background:##F2F2E3;
+}
+
+.points{
+	text-align:center;
+}
+
+footer{
+	background-color: #0d010e;
+	padding:20px 0px 20px 0px;
+
+}
+
 .section-4 {
-	background-color: #063647;
+	background-color: #0d010e;
 	padding: 0.2rem;
 }
 
 a.nav-item {
-	color: #dfdfdf;
+	color: #565656;
 }
 
 a.nav-item:hover {
-	color: #fff;
+	color: #;
+}
+
+p{
+	color:#565656;
 }
 
 .avatar{
@@ -68,8 +121,8 @@ a.nav-item:hover {
 }
 
 .box {
-	background-color: transparent;
-	border: 2px solid rgba(7, 59, 79, 0.5);
+	background-color: #ffffff;
+	border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .title {
@@ -79,14 +132,17 @@ a.nav-item:hover {
 }
 
 .intro {
-	text-align: justify;
+	text-align: center;
 	width: 80%;
 	margin: 0 auto;
+	color:#dfdfdf;
 }
 
 .void-background {
-	background-color: transparent; 
+	background-color: transparent;
 }
+
+
 
 @media screen and (max-width: 768px) {
 	.nav-menu {
